@@ -1,0 +1,34 @@
+{
+  "name": "sgolemon/async-process",
+  "description": "Asynchronous execution wrappers.",
+  "version": "1.0.0-dev",
+  "type": "library",
+  "keywords": [
+    "hacklang",
+    "async",
+    "exec",
+    "proc_open",
+    "popen"
+  ],
+  "homepage": "https://github.com/sgolemon/async-process",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Sara Golemon",
+      "email": "pollita@php.net",
+      "homepage": "https://twitter.com/SaraMG",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "sgolemon\\Async\\": "src/"
+    }
+  },
+  "require": {
+    "hhvm": "^3.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
