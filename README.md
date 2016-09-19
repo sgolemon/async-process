@@ -2,7 +2,7 @@
 
 Basic Usage:
 
-```
+```hack
 use sgolemon\Async;
 use HH\Asio;
 
